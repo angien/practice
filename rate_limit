@@ -1,0 +1,16 @@
+
+public class RateLimiter {
+	private static long now(); // provided, milliseconds
+
+	public boolean canExecNow() {
+	
+	}
+}
+
+RateLimiter rl = new RateLimiter();
+
+while(true) {
+	if (rl.canExecNow()) {
+		// code to rate limit, at most 1000 times per second
+	}
+}

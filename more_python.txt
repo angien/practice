@@ -1,0 +1,16 @@
+More python stuff:
+
+>>> x = "Hello World!"
+>>> x[2:]
+'llo World!'
+>>> x[:2]
+'He'
+>>> x[:-2]
+'Hello Worl'
+>>> x[-2:]
+'d!'
+>>> x[2:-2]
+'llo Worl'
+
+
+[::2] skips every other
